@@ -19,9 +19,9 @@ This needs to be done in an automated fashion so that the infrastructure can be 
 <h2>Run Scripts</h2>
 <p>Before running the scripts, you have to create IAM role first, role name is <b>UdacityS3ReadOnlyEC2</b>
 </p>
-> sudo ./create.sh udacity-project2  network.yml network-parameters.json
+> sudo ./create.sh udacity-project2-network  network.yml network-parameters.json
 </br>
-> sudo ./create.sh udacity-proj2-servers servers.yml servers-parameters.json
+> sudo ./create.sh udacity-project2-servers servers.yml servers-parameters.json
 
 <h2>URL</h2>
 Load Balancer URL: <a target="_blank" href='http://proj2-webap-y4sv7cfl0fq1-1956458692.us-west-2.elb.amazonaws.com/'>http://proj2-webap-y4sv7cfl0fq1-1956458692.us-west-2.elb.amazonaws.com/</a>
